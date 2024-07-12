@@ -1,4 +1,4 @@
-# fastapi
+# FastAPI
 
 ## Эндпоинты:
 
@@ -8,6 +8,10 @@ GET / (index)
 
 ### Студенты (динамический параметр)
 
-GET /get-student/{student_id} (path parameter)
+#### path parameter
 
-GET /get-by-name?name=john  (query parameter)
+GET /get-student/{student_id}
+
+#### query parameter
+
+GET /get-by-name?name=john 
