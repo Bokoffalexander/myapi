@@ -30,3 +30,7 @@ body
   "age": 30,
   "year": "year 19"
 }
+
+#### put and update student
+
+PUT /update-student/{student_id}
