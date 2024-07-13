@@ -4,11 +4,15 @@
 
 ### default
 
-GET / (index)
+GET / (home)
 
-### Студенты (динамический параметр)
+### Студенты
 
-#### path parameter
+#### выдать всех студентов
+
+GET /get-students
+
+#### path parameter (динамический параметр)
 
 GET /get-student/{student_id}
 
@@ -18,7 +22,7 @@ GET /get-by-name?name=john
 
 #### path and query parameters
 
-GET GET /get-by-name/{student_id}?name=john 
+GET /get-by-name/{student_id}?name=john 
 
 #### post and request body
 
@@ -34,3 +38,7 @@ body
 #### put and update student
 
 PUT /update-student/{student_id}
+
+#### delete student
+
+DELETE /delete-student/{student_id}
